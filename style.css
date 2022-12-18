@@ -1,0 +1,85 @@
+/* Imposto l'immagine di background ed il font */
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+/* Contenitore */
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 900px;
+  height: 650px;
+  border-radius: 10px 10px 10px 10px;
+  margin: auto;
+}
+/* Logo e titolo */
+.logo {
+  width: 20%;
+  margin: 10% 40% 0px;
+}
+
+.intestazione{
+  margin: auto auto 5px;
+  color: rgb(57,240,73);
+  width: 55%;
+}
+/* Navigatore */
+nav {
+  margin: auto;
+  width: 80%;
+  background-color: rgb(57,240,73);
+  padding: 10px;
+}
+
+nav > div {
+margin: auto;
+width: 45%;
+}
+
+nav > input {
+  width: fit-content;
+}
+/* Corpo */
+.corpo {
+  margin: auto;
+  width: 83%;
+  color: white;
+}
+
+.monopattino {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+section > div:not(last-child) {
+  font-size: 12px;
+  margin-bottom: 3px;
+  letter-spacing: 0.15em;
+}
+
+.arrow:before {
+  content: "\21A6";
+}
+
+section > div:last-child {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.chargebar-middle {
+  background-color: orange;
+  width: 35%;
+}
+
+.chargebar-full {
+  background-color: rgb(57,240,73);
+  width: 60%;
+}
+
+.chargebar-low {
+  background-color: red;
+  width: 20%;
+}
